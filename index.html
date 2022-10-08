@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Bananas Memory Game</title>    
+      <link rel="stylesheet" href="style.css">  
+    </head>
+    
+    <body>
+      <div class="cat_carrier">
+                <div id="game_over">
+                    <p>Game Over</p>
+                    <button id="restart_game" onclick="restart_game()">Restart Game</button>
+                </div>            
+                <div class="inner_cat">
+                   <h1>Bananas <br>The Cat!</h1>
+                      <div class="coolCat">
+                       <img src="C:\Users\Megan Schuurman\Documents\memory game\images and media\cat with sunglasses.jpeg" id="coolCat" alt="cat in sunglasses" />
+                    </div>
+                </div>
+                
+                <div class="audio-box">
+                   <audio controls class="audio">
+                      <source src="C:\Users\Megan Schuurman\Documents\memory game\images and media\03 - Banana Pancakes.mp3"/>
+                    </audio>
+                    <p class="counter"><span id="mistake_count">0</span>/4</p>
+                  <section class="flip-game">
+                    <div class="flip-game" id="flip-game">      
+                    <div class="deck" data-framework="booty">
+                        <img class="nana-pic" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\fat booty nan.jpg" alt="Fat booty cat" />
+                        <img class="reverse" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\bananas.jpeg" alt="bananas" />
+                    </div>
+                    <div class="deck" data-framework="booty">
+                        <img class="nana-pic" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\fat booty nan.jpg" alt="Fat booty cat" />
+                        <img class="reverse" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\bananas.jpeg" alt="bananas" />
+                    </div>
+                    <div class="deck" data-framework="monch">
+                        <img class="nana-pic" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\nan bite.jpg" alt="monch nan" />
+                        <img class="reverse" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\bananas.jpeg" alt="bananas" />
+                     </div>
+                     <div class="deck" data-framework="monch">
+                        <img class="nana-pic" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\nan bite.jpg" alt="monch nan" /> 
+                        <img class="reverse" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\bananas.jpeg" alt="bananas" /> 
+                    </div>
+                    <div class="deck" data-framework="spicy">
+                        <img class="nana-pic" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\spicy nan .jpg" alt="spicy nan" /> 
+                        <img class="reverse" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\bananas.jpeg" alt="bananas" /> 
+                      </div>
+                      <div class="deck" data-framework="spicy">
+                        <img class="nana-pic" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\spicy nan .jpg" alt="spicy nan" /> 
+                        <img class="reverse" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\bananas.jpeg" alt="bananas" /> 
+                      </div>
+                      <div class="deck" data-framework="sunny">
+                        <img class="nana-pic" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\sunny nan .jpg" alt="sunny nan" /> 
+                        <img class="reverse" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\bananas.jpeg" alt="bananas" /> 
+                      </div>
+                      <div class="deck" data-framework="sunny">
+                        <img class="nana-pic" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\sunny nan .jpg" alt="sunny nan" /> 
+                        <img class="reverse" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\bananas.jpeg" alt="bananas" /> 
+                      </div>
+                      <div class="deck" data-framework="shy">
+                        <img class="nana-pic" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\shy nan .jpg" alt="shy nan" /> 
+                        <img class="reverse" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\bananas.jpeg" alt="bananas" /> 
+                      </div>
+                      <div class="deck" data-framework="shy">
+                        <img class="nana-pic" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\shy nan .jpg" alt="shy nan" /> 
+                        <img class="reverse" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\bananas.jpeg" alt="bananas" /> 
+                      </div>
+                      <div class="deck" data-framework="lounge">
+                        <img class="nana-pic" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\lounge nan .jpg" alt="lounging nan" /> 
+                        <img class="reverse" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\bananas.jpeg" alt="bananas" /> 
+                      </div>
+                      <div class="deck" data-framework="lounge">
+                        <img class="nana-pic" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\lounge nan .jpg" alt="lounging nan" /> 
+                        <img class="reverse" src="C:\Users\Megan Schuurman\Documents\memory game\images and media\bananas.jpeg" alt="bananas" /> 
+                    </div>
+                  </div>
+                <script src="script.js"></script>  
+              </section>
+            </body>
+          </html>

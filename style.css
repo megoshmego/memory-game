@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: #58B15A;
+ 
+}
+ 
+h1 {
+    display: inline;
+    position: relative;
+    font: 80px Helvetica, Sans-Serif;
+    letter-spacing: -5px;
+    color: rgba(27, 56, 15, 0.723); 
+}
+    
+h1:after {
+    content: "Bananas The Cat!";
+    position: absolute; left: 6px; top: 3px;
+    color: rgba(212, 200, 31, 0.947);   
+}
+audio::-webkit-media-controls-panel {
+  background-color: #35d345;
+ 
+  
+}
+
+.audio-box {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  left: 324px;
+  top: 0px;
+}
+
+#game_over{
+  position: fixed;
+  z-index: 100;
+  background-color: #58B15A;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  height: 100%;
+  text-align: center;
+  padding-top: 60px;
+}
+#game_over p{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+#game_over button{
+  padding: 13px 19px;
+  border: 0;
+  background-color: #000000e0;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.flip-game {
+  width: 550px;
+  height: 550px;
+  margin: auto;
+  perspective: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ 
+.deck {
+  width: calc(25% - 10px);         
+  height: calc(33.333% - 10px);           
+  margin: 5px;
+  position: relative;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform .5s;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  left: 350px;
+  top: -30px;
+}
+ 
+.deck:active {
+  transform: scale(0.97);
+  transition: transform .2s;
+}
+ 
+.deck.flip {
+  transform: rotateY(180deg);
+}
+ 
+.nana-pic, 
+.reverse {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  border-radius: 5px;
+  background:#d3b614;
+  backface-visibility: hidden;
+}
+ 
+.nana-pic {
+  transform: rotateY(180deg); 
+}
+ 
+#coolCat {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  left: 50px;
+  top: 250px;
+}
+
+
+.counter {
+  left: 150px;
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  position: absolute;
+  top: 100px;
+}
