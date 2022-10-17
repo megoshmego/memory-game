@@ -85,7 +85,7 @@ audio::-webkit-media-controls-panel {
   transition: transform .5s;
   box-shadow: 1px 1px 1px rgba(0,0,0,.3);
   left: 350px;
-  top: 0px;
+  top: 20px;
 }
  
 .deck:active {
